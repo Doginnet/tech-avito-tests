@@ -85,7 +85,7 @@ npm test
 
 Либо измените значение параметра **headless** на **false** в файле **playwrigth.config.js**.
 
-```json
+```js
  use: {
       baseURL: "http://tech-avito-intern.jumpingcrab.com/advertisements", 
       headless: false,   // тесты будут запускаться в headed-режиме
